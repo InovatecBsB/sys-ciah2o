@@ -1,0 +1,21 @@
+@media (min-width: 992px) {
+    .main-left {
+        margin: 0px 0px 0px 275px;
+    }
+}
+.h100 {
+    height: 50px;
+}
+
+.fa-arrow-right-to-bracket {
+    transform: rotate(90deg);
+}
+.fa-network-wired,
+.fa-pen-to-square,
+.fa-trash-can
+{
+    font-size: 15px;
+}
+.zi {
+    z-index: -10;
+}

@@ -1,0 +1,36 @@
+
+.logo {
+    width: 50px;
+}
+.logo-fonte {
+    width: 50%;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+}
+
+.collapse .ms-auto .nav-active .nav-item .m-dropdow{
+    position: relative;
+    left: 12px;
+    margin: 3px 0px;
+    transition: 0.3s ease;
+}
+
+/*.navbar-nav .nav-active .sub-item{*/
+/*    border-bottom: 1px solid rgba(67, 121, 141, 0.21);*/
+/*}*/
+
+.navbar-nav .nav-active .sub-item:hover,
+.navbar-nav .nav-active .sub-item:focus-within
+{
+    background: #85afaf61;
+}
+
+.navbar-nav .nav-active .nav-sm {
+    margin-left: -12px;
+}
+.navbar-nav .nav-active .nav-sm .sub-item {
+    width: 100vh;
+    padding-left: 57px;
+    margin-left: -12px;
+}

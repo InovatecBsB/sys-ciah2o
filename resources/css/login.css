@@ -1,0 +1,48 @@
+.fa-mobile-retro{
+    font-size: 2em;
+    color: #a3a4a6;
+    position: absolute;
+    top: 110px;
+    left: 26px;
+}
+
+.fa-lock{
+    font-size: 1.5em;
+    color: #a7acad;
+    position: absolute;
+    top: 187px;
+    left: 26px;
+}
+
+
+.fa-user-lock{
+    font-size: 1.5em;
+    color: #eaeaea;
+    position: relative;
+}
+
+.form-control-lg{
+    min-height: calc(1.6em + 1rem + 2px);
+    padding: 0.5rem 2.5rem;
+    font-size: 1.125rem;
+    border-radius: 0.3rem;
+}
+
+.login_link {
+    font-size: 13px;
+}
+
+.card-header span{
+    font-weight: 500;
+    color: #fff;
+    float: right;
+}
+
+/*=========RESET PASSWORD==========*/
+.fa-envelope-rest{
+    font-size: 30px!important;
+    color: #a3a4a6;
+    position: absolute;
+    top: 108px;
+    left: 25px;
+}

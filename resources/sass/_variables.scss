@@ -1,0 +1,72 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+//$blue:    #0d6efd !default;
+//$indigo:  #6610f2 !default;
+//$purple:  #6f42c1 !default;
+//$pink:    #d63384 !default;
+//$red:     #dc3545 !default;
+//$orange:  #fd7e14 !default;
+//$yellow:  #ffc107 !default;
+//$green:   #198754 !default;
+//$teal:    #20c997 !default;
+//$cyan:    #0dcaf0 !default;
+//
+//$white:    #fff !default;
+//$gray-100: #f8f9fa !default;
+//$gray-200: #e9ecef !default;
+//$gray-300: #dee2e6 !default;
+//$gray-400: #ced4da !default;
+//$gray-500: #adb5bd !default;
+//$gray-600: #6c757d !default;
+//$gray-700: #495057 !default;
+//$gray-800: #343a40 !default;
+//$gray-900: #212529 !default;
+//$black:    #000 !default;
+
+
+
+$theme-colors: (
+
+    "primary":      #0D6EFDFF,
+    "warning":      #FFC107FF,
+    "secondary":    #6C757DFF,
+    "success":      #198754FF,
+    "info":         #0DCAF0FF,
+    "danger":       #DC3545FF,
+    "light":        #F8F9FAFF,
+
+    "blue":         #0D6EFDFF,
+    "indigo":       #6610F2FF,
+    "purple":       #6F42C1FF,
+    "pink":         #D63384FF,
+    "red":          #DC3545FF,
+    "orange":       #FD7E14FF,
+    "yellow":       #FFC107FF,
+    "green":        #198754FF,
+    "teal":         #20C997FF,
+    "cyan":         #0DCAF0FF,
+    "white":        #FFFFFFFF,
+    "gray":         #6C757DFF,
+    "gray-dark":    #343A40FF,
+
+    "azul_mod": #2A55C8,
+    "menu_color": #8CC9C9,
+    "menu_heade": #73C4DE,
+    "item_menu_color": #D1E6E6,
+    "font_menu_color": #097e94,
+    "surface_secondary": #f5f9fc,
+    "greenligth": #D1E6E6,
+    "outline": #a9a9a9,
+
+    "dark": #6c757d,
+
+);
+
+
+
