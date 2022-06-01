@@ -20,26 +20,15 @@ class UsersTableSeeder extends Seeder
 
         User::insert([
             [
-                'name' => 'Celio Batalha',
-                'email' => 'celio.batalha@gmail.com',
-                'phone' => '61998274631',
+                'name' => 'Espectador',
+                'email' => 'espectador@espectador.com',
+                'phone' => '619998982255',
                 'cpf' => '87081156134',
                 'rg' => '1685968',
 //                'email_verified_at' => now(),
-                'password' => bcrypt('ce123456'), // password
+                'password' => bcrypt('cia123456'), // password
 //                'remember_token' => Str::random(10),
                 'remember_token' => 1213345646851,
-            ],
-            [
-                'name' => 'Celio Filho',
-                'email' => 'celio_batalha@hotmail.com',
-                'phone' => '61996720587',
-                'cpf' => '87281156134',
-                'rg' => '1685969',
-//                'email_verified_at' => now(),
-                'password' => bcrypt('ce123456'), // password
-//                'remember_token' => Str::random(10),
-                'remember_token' => 1433345646851,
             ]
         ]);
 

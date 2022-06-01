@@ -15,11 +15,11 @@ class UserFactory extends Factory
     public function definition()
     {
         return [
-            'name' => 'Celio Batalha',
-            'phone' => '61998274631',
-            'email' => 'celio.batalha@gmail.com',
+            'name' => 'Administrador',
+            'phone' => '61999887766',
+            'email' => 'admin@admin.com',
             'email_verified_at' => now(),
-            'password' => bcrypt('ce123456'), // password
+            'password' => bcrypt('cia123456'), // password
             'remember_token' => Str::random(10),
         ];
     }
