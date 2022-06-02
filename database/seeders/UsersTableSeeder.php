@@ -22,8 +22,8 @@ class UsersTableSeeder extends Seeder
             [
                 'name' => 'Espectador',
                 'email' => 'espectador@espectador.com',
-                'phone' => '619998982255',
-                'cpf' => '87081156134',
+                'phone' => '61999898225',
+                'cpf' => '87081132154',
                 'rg' => '1685968',
 //                'email_verified_at' => now(),
                 'password' => bcrypt('cia123456'), // password
