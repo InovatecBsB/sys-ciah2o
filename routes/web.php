@@ -26,7 +26,7 @@ Auth::routes();
 Route::get('/', [HomeController::class, 'index'])->name('index.home');
 
 Route::prefix('admin')->group(function (){
-    Route::get('/roles', [RoleController::class, 'lista'])->name('lista.roles');
+    Route::get('/roles', [RoleController::class, 'lista'])->name('role.lista');
     Route::get('/roles/create', [RoleController::class, 'create'])->name('role.create');
     Route::post('/roles', [RoleController::class, 'store'])->name('role.store');
     Route::get('/roles/{role}/edit', [RoleController::class, 'edit'])->name('role.edite');
