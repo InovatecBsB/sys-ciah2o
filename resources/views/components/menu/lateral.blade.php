@@ -2,7 +2,7 @@
     <a class="nav-link" href="#"><h5>Dashboard Ciah2o</h5></a>
 </li>
 <li class="nav-item px-0">
-    <a class="nav-link" href="/"><i class="fas fa-house"></i>Principal</a>
+    <a class="nav-link" href="{{ url('/') }}"><i class="fas fa-house"></i>Principal</a>
 </li>
 <li class="nav-item  px-0">
     <a class="nav-link nav-cadastro" href="#"
