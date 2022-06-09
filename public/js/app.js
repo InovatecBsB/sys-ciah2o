@@ -960,7 +960,7 @@ eval("\n\nvar bind = __webpack_require__(/*! ./helpers/bind */ \"./node_modules/
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("__webpack_require__(/*! ./bootstrap */ \"./resources/js/bootstrap.js\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvYXBwLmpzLmpzIiwibWFwcGluZ3MiOiJBQUFBQSxtQkFBTyxDQUFDLGdEQUFELENBQVAiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvYXBwLmpzP2NlZDYiXSwic291cmNlc0NvbnRlbnQiOlsicmVxdWlyZSgnLi9ib290c3RyYXAnKTtcclxuIl0sIm5hbWVzIjpbInJlcXVpcmUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/app.js\n");
+eval("__webpack_require__(/*! ./bootstrap */ \"./resources/js/bootstrap.js\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvYXBwLmpzLmpzIiwibWFwcGluZ3MiOiJBQUFBQSxtQkFBTyxDQUFDLGdEQUFELENBQVAiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvYXBwLmpzP2NlZDYiXSwic291cmNlc0NvbnRlbnQiOlsicmVxdWlyZSgnLi9ib290c3RyYXAnKTtcbiJdLCJuYW1lcyI6WyJyZXF1aXJlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/app.js\n");
 
 /***/ }),
 
@@ -1025,6 +1025,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvdmlld3MvYWRtaW4vY3NzL2FkbWluX2hvbWUuY3NzLmpzIiwibWFwcGluZ3MiOiI7QUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3Jlc291cmNlcy92aWV3cy9hZG1pbi9jc3MvYWRtaW5faG9tZS5jc3M/ZDZlZSJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbmV4cG9ydCB7fTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/views/admin/css/admin_home.css\n");
+
+/***/ }),
+
+/***/ "./resources/views/admin/css/admin_produto.css":
+/*!*****************************************************!*\
+  !*** ./resources/views/admin/css/admin_produto.css ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvdmlld3MvYWRtaW4vY3NzL2FkbWluX3Byb2R1dG8uY3NzLmpzIiwibWFwcGluZ3MiOiI7QUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3Jlc291cmNlcy92aWV3cy9hZG1pbi9jc3MvYWRtaW5fcHJvZHV0by5jc3M/MDQ4NCJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbmV4cG9ydCB7fTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/views/admin/css/admin_produto.css\n");
 
 /***/ }),
 
@@ -1233,6 +1244,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 			"css/header": 0,
 /******/ 			"css/app": 0,
 /******/ 			"css/bootstrap": 0,
+/******/ 			"css/admin_produto": 0,
 /******/ 			"css/admin_home": 0,
 /******/ 			"css/admin_role": 0
 /******/ 		};
@@ -1284,15 +1296,16 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/sass/app.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_home","css/admin_role"], () => (__webpack_require__("./node_modules/bootstrap/dist/css/bootstrap.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/css/app.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/css/header.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/css/login.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/css/menu.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/views/admin/css/admin_role.css")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/views/admin/css/admin_home.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_produto","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_produto","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_produto","css/admin_home","css/admin_role"], () => (__webpack_require__("./node_modules/bootstrap/dist/css/bootstrap.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_produto","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_produto","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/css/header.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_produto","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/css/login.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_produto","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/css/menu.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_produto","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/views/admin/css/admin_role.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_produto","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/views/admin/css/admin_home.css")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/bootstrap-sass","css/menu","css/login","css/header","css/app","css/bootstrap","css/admin_produto","css/admin_home","css/admin_role"], () => (__webpack_require__("./resources/views/admin/css/admin_produto.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

@@ -16,7 +16,7 @@
                 <a class="nav-link" href="{{ route('user.index') }}"><i class="fas fa-user"></i><span class="text-font_menu_color">Usuarios</span></a>
             </li>
             <li class="sub-item">
-                <a class="nav-link" href="#"><i class="fas fa-box"></i><span class="text-font_menu_color">Produtos</span></a>
+                <a class="nav-link" href="{{ route('produto.index') }}"><i class="fas fa-box"></i><span class="text-font_menu_color">Produtos</span></a>
             </li>
             <li class="sub-item">
                 <a class="nav-link" href="#"><i class="fas fa-calendar-day"></i><span class="text-font_menu_color">Eventos</span></a>
