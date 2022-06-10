@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ProdutoController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -27,7 +26,7 @@ Auth::routes();
 Route::get('/', [HomeController::class, 'index'])->name('index.home');
 
 Route::prefix('admin')->group(function (){
-    Route::get('/roles', [RoleController::class, 'lista'])->name('role.lista');
+    Route::get('/roles', [RoleController::class, 'lista'])->name('lista.roles');
     Route::get('/roles/create', [RoleController::class, 'create'])->name('role.create');
     Route::post('/roles', [RoleController::class, 'store'])->name('role.store');
     Route::get('/roles/{role}/edit', [RoleController::class, 'edit'])->name('role.edite');
@@ -42,9 +41,6 @@ Route::prefix('admin')->group(function (){
     Route::get('/users/{user}/edit', [UserController::class, 'edit'])->name('user.edit');
     Route::get('/users/{user}/role', [UserController::class, 'add_role'])->name('user.role');
     Route::post('/users/{user}/role', [UserController::class, 'add_role'])->name('user.role.add_role');
-
-    Route::get('/produtos', [ProdutoController::class, 'index'])->name('produto.index');
-    Route::get('/produtos/create', [ProdutoController::class, 'create'])->name('produto.create');
 });
 //Route::get('/admin/roles/{id}', [RoleController::class, 'show']);
 

@@ -10,7 +10,7 @@
         <div class="row main-left mb-3">
             <div class="col">
                 <div class="p-3 border bg-menu_color text-font_menu_color">
-                    <h5 class="mb-0">Formulário de Cadastro</h5>
+                    <h5 class="mb-0">Cadastrar Usuario</h5>
                 </div>
             </div>
         </div>

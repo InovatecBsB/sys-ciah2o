@@ -15,10 +15,8 @@
     <!-- Scripts -->
     <script src="{{ asset('js/jquery.js') }}" defer></script>
     <script src="{{ asset('js/bootstrap-bundle.js') }}" defer></script>
-    <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="{{ asset('js/menu_lateral.js') }}" defer></script>
     <script src="{{ asset('js/admin_role.js') }}" defer></script>
-    <script src="{{ asset('js/admin_produto.js') }}"></script>
 
     <script src="https://kit.fontawesome.com/5fcb4a443a.js" crossorigin="anonymous"></script>
 
@@ -35,7 +33,6 @@
     <link href="{{ asset('css/menu.css') }}" rel="stylesheet">
     <link href="{{ asset('css/admin_role.css') }}" rel="stylesheet">
     <link href="{{ asset('css/admin_home.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/admin_produto.css') }}" rel="stylesheet">
     <style>
         .py-lg-5 {
             padding-top: 5rem!important;
@@ -51,5 +48,6 @@
         </main>
         @yield('login')
     </div>
+
 </body>
 </html>

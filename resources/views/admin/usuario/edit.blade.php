@@ -10,7 +10,7 @@
         <div class="row main-left mb-3">
             <div class="col">
                 <div class="p-3 border bg-menu_color text-font_menu_color">
-                    <h5 class="mb-0">Formulário de Edição</h5>
+                    <h5 class="mb-0">Cadastrar Usuario</h5>
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
         <div class="row main-left">
             <div class="col-lg-12">
                 <div class="card shadow-sm">
-                    <div class="card-header  bg-menu_color text-font_menu_color">{{ __('Usuário') }}</div>
+                    <div class="card-header  bg-menu_color text-font_menu_color">{{ __('Novo Usuário') }}</div>
                     <div class="card-body">
                         <form method="POST" action="{{ route('user.edit', ['user'=>$user->id]) }}">
                             @method('PUT')

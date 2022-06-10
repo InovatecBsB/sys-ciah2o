@@ -2,7 +2,7 @@
     <a class="nav-link" href="#"><h5>Dashboard Ciah2o</h5></a>
 </li>
 <li class="nav-item px-0">
-    <a class="nav-link" href="{{ url('/') }}"><i class="fas fa-house"></i>Principal</a>
+    <a class="nav-link" href="/"><i class="fas fa-house"></i>Principal</a>
 </li>
 <li class="nav-item  px-0">
     <a class="nav-link nav-cadastro" href="#"
@@ -16,7 +16,7 @@
                 <a class="nav-link" href="{{ route('user.index') }}"><i class="fas fa-user"></i><span class="text-font_menu_color">Usuarios</span></a>
             </li>
             <li class="sub-item">
-                <a class="nav-link" href="{{ route('produto.index') }}"><i class="fas fa-box"></i><span class="text-font_menu_color">Produtos</span></a>
+                <a class="nav-link" href="#"><i class="fas fa-box"></i><span class="text-font_menu_color">Produtos</span></a>
             </li>
             <li class="sub-item">
                 <a class="nav-link" href="#"><i class="fas fa-calendar-day"></i><span class="text-font_menu_color">Eventos</span></a>
@@ -52,7 +52,7 @@
     <div class="collapse " id="security-collapse">
         <ul class="nav nav-sm flex-column bg-item_menu_color">
             <li class="sub-item">
-                <a class="nav-link" href="{{ route('role.lista') }}"><i class="fas fa-right-from-bracket"></i><span class="text-font_menu_color">Cargo</span></a>
+                <a class="nav-link" href="/admin/roles"><i class="fas fa-right-from-bracket"></i><span class="text-font_menu_color">Cargo</span></a>
             </li>
             <li class="sub-item">
                 <a class="nav-link" href="#"><i class="fas fa-right-from-bracket"></i><span class="text-font_menu_color">Permissão</span></a>
