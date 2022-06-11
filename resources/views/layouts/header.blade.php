@@ -1,9 +1,9 @@
 @section('header')
-    <nav class="navbar navbar-expand-lg navbar-light bg-menu_heade py-1 w-100 position-fixed">
+    <nav class="navbar navbar-expand-lg navbar-light bg-menu_heade py-1 w-100 position-fixed" style="z-index: 1">
         <div class="container-fluid">
             <a class="navbar-brand " href="{{ url('/') }}">
 {{--                <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">--}}
-                <img class="d-inline-block logo " src="svg/logo.svg" width="40" height="40" height="">
+                <img class="d-inline-block logo " src="{{ url('svg/logo.svg') }}" width="40" height="40" height="">
                 <span class="logo-fonte">Clube do Espectador</span>
 {{--                {{ config('app.name', 'Ciah2o') }}--}}
             </a>

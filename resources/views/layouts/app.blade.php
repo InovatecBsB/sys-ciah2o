@@ -33,6 +33,7 @@
     <link href="{{ asset('css/menu.css') }}" rel="stylesheet">
     <link href="{{ asset('css/admin_role.css') }}" rel="stylesheet">
     <link href="{{ asset('css/admin_home.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/admin_produto.css') }}" rel="stylesheet">
     <style>
         .py-lg-5 {
             padding-top: 5rem!important;

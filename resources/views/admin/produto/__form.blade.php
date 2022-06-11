@@ -14,7 +14,21 @@
 {{--        @enderror--}}
 {{--    </div>--}}
 {{--</div>--}}
-<div class="row">
+<div class="row cad_reverse" style="display: flex; flex-direction: row-reverse;">
+    <div class="col-sm-4">
+        <div class="row mb-3">
+            <div class="col-sm-12" style="height: 410px;">
+                <div class="bg-light h-100 w-75 shadow-sm centralizar">
+                    <i class="fa-solid fa-camera"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-9">
+                <input type="file" class="form-control" name="img" id="id_img"  onclick=event_imagem()>
+            </div>
+        </div>
+    </div>
     <div class="col-sm-8">
         <div class="row mb-3">
             <div class="col-sm-4">
@@ -134,18 +148,5 @@
         </div>
 
     </div>
-    <div class="col-sm-4">
-        <div class="row mb-3">
-            <div class="col-sm-12" style="height: 410px;">
-                <div class="bg-light h-100 w-75 shadow-sm centralizar" style="">
-                    <i class="fa-solid fa-camera"></i>
-                </div>
-            </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-sm-9">
-                <input type="file" class="form-control" name="img" id="id_img"  onclick=event_imagem()>
-            </div>
-        </div>
-    </div>
+
 </div>
