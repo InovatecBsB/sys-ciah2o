@@ -52,7 +52,7 @@
     <div class="collapse " id="security-collapse">
         <ul class="nav nav-sm flex-column bg-item_menu_color">
             <li class="sub-item">
-                <a class="nav-link" href="/admin/roles"><i class="fas fa-right-from-bracket"></i><span class="text-font_menu_color">Cargo</span></a>
+                <a class="nav-link" href="{{ route('lista.roles') }}"><i class="fas fa-right-from-bracket"></i><span class="text-font_menu_color">Cargo</span></a>
             </li>
             <li class="sub-item">
                 <a class="nav-link" href="#"><i class="fas fa-right-from-bracket"></i><span class="text-font_menu_color">Permissão</span></a>
