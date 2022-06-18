@@ -45,6 +45,27 @@
                 @enderror
             </div>
         </div>
+        <div class="row mb-3">
+            <div class="col-sm-4">
+                <label for="id_categoria_id" class="col-form-label text-font_menu_color">{{ __('Categoria') }}</label>
+                <i class="fa-solid fa-circle-exclamation text-blue float-md-end mt-sm-2 fs-6" title="Necessários" aria-label="Necessários"></i>
+            </div>
+            <div class="col-sm-8">
+                <select id="id_categoria_id" class="form-select shadow-sm @error('categoria_id') is-invalid @enderror" name="categoria_id">
+                    <option value="">--Selecione--</option>
+                    @foreach($categorias as $categoria)
+                        <option value="{{ $categoria->id }}">{{ $categoria->name }}</option>
+                    @endforeach
+                </select>
+
+
+                @error('categoria_id')
+                <span class="invalid-feedback" role="alert">
+                    {{ $message }}
+                </span>
+                @enderror
+            </div>
+        </div>
 
         <div class="row mb-3">
             <div class="col-sm-4">
@@ -53,8 +74,9 @@
             </div>
 
             <div class="col-sm-8">
-                <input id="id_estoque" type="number" class="form-control shadow-sm @error('estoque') is-invalid @enderror" name="estoque" value="{{ $produto->estoque ?? old('estoque') }}" autocomplete="estoque">
-
+                <input id="id_estoque" type="number" class="form-control shadow-sm @error('estoque') is-invalid @enderror"
+                       name="estoque" value="{{ $produto->estoque ?? old('estoque') }}" autocomplete="estoque"
+                >
                 @error('estoque')
                 <span class="invalid-feedback" role="alert">
                     {{ $message }}
@@ -68,9 +90,10 @@
                 <i class="fa-solid fa-circle-exclamation text-blue float-md-end mt-sm-2 fs-6" title="Necessários" aria-label="Necessários"></i>
             </div>
             <div class="col-sm-8">
-                <input id="id_preco_custo" type="text" class="form-control shadow-sm @error('preco_custo') is-invalid @enderror" name="phone" value="{{ $produto->preco_custo ?? old('preco_custo') }}" autocomplete="preco_custo">
-
-                @error('preco_custo')
+                <input id="id_custo" type="text" class="form-control shadow-sm @error('custo') is-invalid @enderror"
+                       name="custo" value="{{ $produto->custo ?? old('custo') }}" autocomplete="custo"
+                       onkeyup="formatarMoeda(this)">
+                @error('custo')
                 <span class="invalid-feedback" role="alert">
                     {{ $message }}
                 </span>
@@ -86,9 +109,11 @@
 
             <div class="col-sm-8">
 
-                <input id="id_preco_venda" type="text" class="form-control shadow-sm @error('preco_venda') is-invalid @enderror" name="preco_venda" value="{{ $produto->preco_venda ?? old('preco_venda') }}" autocomplete="preco_venda">
+                <input id="id_venda" type="text" class="form-control shadow-sm @error('preco_venda') is-invalid @enderror"
+                       name="venda" value="{{ $produto->venda ?? old('venda') }}" autocomplete="venda"
+                       onkeyup="formatarMoeda(this)">
 
-                @error('preco_venda')
+                @error('venda')
                 <span class="invalid-feedback" role="alert">
                     {{ $message }}
                 </span>
@@ -102,7 +127,8 @@
             </div>
 
             <div class="col-sm-8">
-                <input id="id_desconto" type="text" class="form-control shadow-sm @error('desconto') is-invalid @enderror" name="desconto" value="{{ $produto->desconto ?? old('desconto') }}" autocomplete="desconto">
+                <input id="id_desconto" type="text" class="form-control shadow-sm @error('desconto') is-invalid @enderror"
+                       name="desconto" value="{{ $produto->desconto ?? old('desconto') }}" autocomplete="desconto">
                 @error('desconto')
                 <span class="invalid-feedback" role="alert">
                     {{ $message }}

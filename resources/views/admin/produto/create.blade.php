@@ -26,7 +26,7 @@
                     <div class="card-header  bg-menu_color text-font_menu_color">{{ __('Novo Produto') }}</div>
                     <div class="card-body">
 {{--                        <form method="POST" action="{{ route('user.store') }}">--}}
-                        <form method="POST" action="">
+                        <form method="POST" action="{{ route('produto.store') }}">
                             @include('admin.produto.__form')
 {{--                            <h2>Formulario de produto</h2>--}}
                         </form>
@@ -39,4 +39,7 @@
             </div>
         </div>
     </div>
+@endsection
+@section('script')
+    <script src="{{ asset('js/admin_produto.js') }}" defer></script>
 @endsection

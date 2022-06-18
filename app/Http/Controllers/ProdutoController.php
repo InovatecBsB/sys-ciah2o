@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ProdutoValidateRequest;
+use App\Models\Categoria;
+use App\Models\Produto;
 use Illuminate\Http\Request;
 
 class ProdutoController extends Controller
@@ -24,10 +27,8 @@ class ProdutoController extends Controller
      */
     public function create()
     {
-        $produto = [
-            'produto'
-        ];
-        return view('admin.produto.create', compact('produto'));
+        $categorias = Categoria::all();
+        return view('admin.produto.create', compact('categorias'));
     }
 
     /**
@@ -36,9 +37,16 @@ class ProdutoController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ProdutoValidateRequest $request)
     {
-        //
+        $produto = Produto::create($request->all());
+        if($produto->exists()) {
+            session()->flash('sucessos','Produto cadastrado com sucesso!');
+        }else{
+            session()->flash('error','Error ao gravar no banco de dados!');
+        }
+
+        return redirect()->route('produto.index');
     }
 
     /**

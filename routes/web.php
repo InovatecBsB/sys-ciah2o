@@ -45,6 +45,7 @@ Route::prefix('admin')->group(function (){
 
     Route::get('/produtos', [ProdutoController::class, 'index'])->name('produto.index');
     Route::get('/produtos/create', [ProdutoController::class, 'create'])->name('produto.create');
+    Route::post('/produtos/store', [ProdutoController::class, 'store'])->name('produto.store');
 });
 //Route::get('/admin/roles/{id}', [RoleController::class, 'show']);
 

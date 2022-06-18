@@ -17,7 +17,7 @@
         <div class="row main-left mb-3 pt-4">
             <div class="col">
                 <form action="{{ route('role.store') }}" method="POST" class="needs-validation" novalidate>
-                    @include('admin.role.__form');
+                    @include('admin.role.__form')
                 </form>
             </div>
         </div>

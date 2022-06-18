@@ -50,5 +50,7 @@
         @yield('login')
     </div>
 
+{{--<script src="{{ asset('js/admin_produto.js') }}" defer></script>--}}
+@yield('script')
 </body>
 </html>
